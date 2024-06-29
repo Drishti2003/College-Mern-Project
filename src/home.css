@@ -1,0 +1,28 @@
+*{
+    background-color: #001a33;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    gap: 40px;
+
+}
+
+.cards{
+    background-color: #476f979e;
+    display: flex;
+    flex-direction: column;
+    border: #a3d4ff 4px solid;
+    padding: 20px;
+    border-radius: 10px;
+height: 300px;}
+
+.cards>img{
+    width: 200px;
+}
+.cards>h1{
+    color: white;
+    font-size: 40px;
+}
